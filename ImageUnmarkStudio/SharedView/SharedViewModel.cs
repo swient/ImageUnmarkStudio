@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace ImageRecognition_Final_Project.SharedView
+namespace ImageUnmarkStudio.SharedView
 {
 
     internal class SharedViewModel

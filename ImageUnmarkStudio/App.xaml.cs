@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace ImageRecognition_Final_Project
+namespace ImageUnmarkStudio
 {
     /// <summary>
     /// Interaction logic for App.xaml

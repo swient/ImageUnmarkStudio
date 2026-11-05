@@ -8,14 +8,14 @@ using Emgu.CV.Structure;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Reg;
 
-namespace ImageRecognition_Final_Project.Program
+namespace ImageUnmarkStudio.Program
 {
     internal class RemoveMarkFunction
     {
         public Bitmap oriImage; // 原始圖像
         public Bitmap proImage; // 處理後圖像
         public Int32Rect MarkRect; // 浮水印區域
-        
+
         public RemoveMarkFunction()
         {
             oriImage = new Bitmap(1, 1);
@@ -364,7 +364,7 @@ namespace ImageRecognition_Final_Project.Program
 
             // 執行膨脹操作
             Bitmap dilatedImage = Dilation(erodedImage);
-            bool [,]Mask = new bool[oriImage.Width, oriImage.Height];
+            bool[,] Mask = new bool[oriImage.Width, oriImage.Height];
             for (int y = 0; y < oriImage.Height; y++)
             {
                 for (int x = 0; x < oriImage.Width; x++)
@@ -378,7 +378,7 @@ namespace ImageRecognition_Final_Project.Program
                         Mask[x, y] = false;
                 }
             }
-            return Mask; 
+            return Mask;
         }
     }
 }

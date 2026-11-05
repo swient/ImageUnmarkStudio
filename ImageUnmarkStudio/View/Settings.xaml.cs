@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace ImageRecognition_Final_Project
+namespace ImageUnmarkStudio
 {
     public partial class SettingsWindow : HandyControl.Controls.Window
     {

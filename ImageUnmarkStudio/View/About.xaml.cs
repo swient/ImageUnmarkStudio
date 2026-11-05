@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace ImageRecognition_Final_Project
+namespace ImageUnmarkStudio
 {
     public partial class AboutWindow : HandyControl.Controls.Window
     {
@@ -42,7 +42,7 @@ namespace ImageRecognition_Final_Project
         {
             System.Diagnostics.Process.Start(new ProcessStartInfo
             {
-                FileName = "https://github.com/swient/ImageRecognition_Final_Project",
+                FileName = "https://github.com/swient/ImageUnmarkStudio",
                 UseShellExecute = true
             });
         }

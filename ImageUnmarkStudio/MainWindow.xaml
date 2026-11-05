@@ -1,12 +1,12 @@
-﻿<hc:Window x:Class="ImageRecognition_Final_Project.MainWindow"
+﻿<hc:Window x:Class="ImageUnmarkStudio.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ImageRecognition_Final_Project"
+        xmlns:local="clr-namespace:ImageUnmarkStudio"
         xmlns:hc="https://handyorg.github.io/handycontrol"
         mc:Ignorable="d"
-        Title="影像辨識-期末專題" MinHeight="800" MinWidth="1500" Icon="/Image/ImageRecognition_icon.ico">
+        Title="圖片浮水印移除工具" MinHeight="800" MinWidth="1500" Icon="/Image/app.ico">
     <hc:TransitioningContentControl>
         <TabControl Style="{StaticResource TabControlInLine}">
             <TabItem Header="圖片浮水印">
@@ -451,4 +451,4 @@
             </TabItem>
         </TabControl>
     </hc:TransitioningContentControl>
-</hc:Window>
+</hc:Window> 

@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace ImageRecognition_Final_Project.Program
+namespace ImageUnmarkStudio.Program
 {
     internal class MyImageManager
     {

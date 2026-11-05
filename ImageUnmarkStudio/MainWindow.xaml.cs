@@ -1,5 +1,5 @@
-﻿using ImageRecognition_Final_Project.Program;
-using ImageRecognition_Final_Project.SharedView;
+﻿using ImageUnmarkStudio.Program;
+using ImageUnmarkStudio.SharedView;
 using Microsoft.Win32;
 
 using System.Drawing;
@@ -14,7 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
 
-namespace ImageRecognition_Final_Project
+namespace ImageUnmarkStudio
 {
     public partial class MainWindow : HandyControl.Controls.Window
     {
@@ -249,7 +249,8 @@ namespace ImageRecognition_Final_Project
             switch (Removewatermarkmode)
             {
                 case "垂直填充":
-                    if (RemoveWatermarkImage.Source == null){
+                    if (RemoveWatermarkImage.Source == null)
+                    {
                         HandyControl.Controls.MessageBox.Show("請先選取浮水印部分");
                         return;
                     }

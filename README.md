@@ -1,21 +1,21 @@
 <div align="center">
-<img alt="LOGO" src="https://github.com/swient/ImageRecognition_Final_Project/blob/main/ImageRecognition_Final_Project/Image/ImageRecognition_icon.ico" width="256" height="256" />
+<img alt="LOGO" src="https://github.com/swient/ImageUnmarkStudio/blob/main/ImageUnmarkStudio/Image/app.ico" width="256" height="256" />
 
-# ImageRecognition_Final_Project
+# ImageUnmarkStudio
 
 </div>
 
-## 基本介绍
+## 基本介紹
 
-- 影像辨識期末專題
+- 圖片浮水印移除工具
 
 ## 說明
 
-- 使用HandyCtrol控件庫
-- https://github.com/HandyOrg/HandyControl
+- 使用 HandyCtrol 控件庫
+- <https://github.com/HandyOrg/HandyControl>
 
-- 影像處理的操作在MyImageManager.cs
-- 控件目錄在MainWindow.xaml
+- 影像處理的操作在 MyImageManager.cs
+- 控件目錄在 MainWindow.xaml
 
 ## 如何使用
 
